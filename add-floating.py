@@ -24,7 +24,7 @@ def main(argv):
 	
 	#subnet = "10.1." + str(data_num) +"."+str(((int(username))-int(start_user))*8)+"/29"
 	
-	command = "/root/code/config" + " " + "--username " + username + " --password " + username + " --tenant "+ username + " --api-server 127.0.0.1 " + "add floating-ip-pool public-" + username + "-net-pool --network public-" + username + "-net" 
+	command = "/root/code_specific/config" + " " + "--username " + username + " --password " + username + " --tenant "+ username + " --api-server 127.0.0.1 " + "add floating-ip-pool public-" + username + "-net-pool --network public-" + username + "-net" 
 	#print command	
 	os.system(command)
 if __name__ == "__main__":
