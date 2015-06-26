@@ -19,7 +19,7 @@ def main(argv):
 			username = arg
 		elif opt in ("-d", "--datacenter"):
 			data_num = arg
-		elif opt in ("-p", "--pool")
+		elif opt in ("-p", "--pool"):
 			pool = arg
 		#elif opt in ("-s", "--start_user")
 		#	start_user = arg
